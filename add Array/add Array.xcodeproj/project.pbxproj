@@ -14,6 +14,7 @@
 		0F879E0F1F2840C2009C3CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F879E0D1F2840C2009C3CB7 /* LaunchScreen.storyboard */; };
 		0F879E1A1F2840C2009C3CB7 /* add_ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F879E191F2840C2009C3CB7 /* add_ArrayTests.swift */; };
 		0F879E251F2840C2009C3CB7 /* add_ArrayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F879E241F2840C2009C3CB7 /* add_ArrayUITests.swift */; };
+		0FF34D691F28700900D4D984 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 0FF34D681F28700900D4D984 /* ReadMe */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0F879E201F2840C2009C3CB7 /* add ArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "add ArrayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F879E241F2840C2009C3CB7 /* add_ArrayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add_ArrayUITests.swift; sourceTree = "<group>"; };
 		0F879E261F2840C2009C3CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF34D681F28700900D4D984 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0F879DF81F2840C1009C3CB7 = {
 			isa = PBXGroup;
 			children = (
+				0FF34D681F28700900D4D984 /* ReadMe */,
 				0F879E031F2840C2009C3CB7 /* add Array */,
 				0F879E181F2840C2009C3CB7 /* add ArrayTests */,
 				0F879E231F2840C2009C3CB7 /* add ArrayUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF34D691F28700900D4D984 /* ReadMe in Resources */,
 				0F879E0F1F2840C2009C3CB7 /* LaunchScreen.storyboard in Resources */,
 				0F879E0C1F2840C2009C3CB7 /* Assets.xcassets in Resources */,
 				0F879E0A1F2840C2009C3CB7 /* Main.storyboard in Resources */,
@@ -507,6 +511,7 @@
 				0F879E2B1F2840C2009C3CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F879E2C1F2840C2009C3CB7 /* Build configuration list for PBXNativeTarget "add ArrayTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				0F879E2E1F2840C2009C3CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F879E2F1F2840C2009C3CB7 /* Build configuration list for PBXNativeTarget "add ArrayUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				0F879E311F2840C2009C3CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
