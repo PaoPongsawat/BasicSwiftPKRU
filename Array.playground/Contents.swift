@@ -28,3 +28,22 @@ intArrayNumber1.append(999)
 print("นี่คือ intArrayNumber ใหม่ ==>\(intArrayNumber1)")
 print("strName1 ==> \(strName1)")
 strName1.append("MasterUNg")
+
+// การลบสมาชิก Array
+print("intNumber1 ==> \(intArrayNumber1)")
+intArrayNumber1.remove(at:2)
+print("intNumber = \(intArrayNumber1)")
+
+intArrayNumber1.append(10)
+intArrayNumber1.append(21)
+intArrayNumber1.append(56)
+print("intArrayNumber ==> \(intArrayNumber1)")
+intArrayNumber1.sort()
+print("intArrayNumber ใหม่ ==> \(intArrayNumber1)")
+
+//การนับสมาชิก
+let intCount = intArrayNumber1.count
+
+
+
+
